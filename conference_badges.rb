@@ -1,4 +1,4 @@
-sdef badge_maker(name)
+def badge_maker(name)
   return "Hello, my name is #{name}."
 end
 
@@ -28,4 +28,4 @@ def printer(attendees)
   assign_rooms(attendees).each do |badge|
     puts badge
   end
-end 
+end
